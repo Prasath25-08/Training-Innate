@@ -1,1 +1,15 @@
-This is prog2.java........
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+        Scanner sc = new Scanner(System.in);
+        int age = sc.nextInt();
+        float height = sc.nextFloat();
+        String name = sc.next();
+        
+        System.out.printf("%s is %d years old and %.2f meters tall.", name, age, height);
+    }
+}
